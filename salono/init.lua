@@ -1,10 +1,10 @@
-backupareas = {}
+salono = {}
 
-backupareas.modpath = core.get_modpath("backupareas")
-dofile(backupareas.modpath.."/commands.lua")
+salono.modpath = core.get_modpath("salono")
+dofile(salono.modpath.."/commands.lua")
 
---backupareas:load()
-text = "backupareas loaded."
+--salono:load()
+text = "salono loaded."
 print(text)
 
 core.register_on_joinplayer(function(player)
