@@ -105,7 +105,7 @@ core.register_chatcommand("sa", {
 			for x = xmin, xmax do
 				for y = ymin, ymax do
 					for z = zmin, zmax do
-						--monitor(i, #dir_list, x, y, z, xmax, ymax, zmax)
+						monitor(i, #dir_list, x, y, z, xmax, ymax, zmax)
 						save_node(schema_dir, file, x, y, z)
 					end
 				end
