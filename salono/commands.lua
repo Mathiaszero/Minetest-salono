@@ -1,4 +1,4 @@
-local S = core.get_translator("backupareas")
+local S = core.get_translator("salono")
 
 local function monitor(i, total, x, y, z, xmax, ymax, zmax)
 	local monitor_file, err = io.open(core.get_worldpath().."/monitor.txt", "w")
